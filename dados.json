@@ -1,0 +1,74 @@
+{
+  "titulo": "EcoPulse",
+  "slogan": "A Plataforma que transforma seus hábitos em Impacto Positivo",
+  "descricao": "EcoPulse é uma plataforma digital que conecta suas escolhas do dia a dia — como transporte, alimentação e consumo de energia — com ações ambientais reais. Usando inteligência artificial e integração com apps como Google Maps, iFood e Uber, o EcoPulse calcula automaticamente sua emissão de carbono, sugere mudanças simples com grande impacto e compensa as emissões com ações sustentáveis.",
+  "como_funciona": [
+    "Conecte seus apps favoritos",
+    "Receba seu EcoScore",
+    "Transforme impacto em ação",
+    "Compartilhe sua jornada"
+  ],
+  "depoimentos": [
+    {
+      "texto": "Nunca imaginei que fosse tão fácil fazer diferença. Só conectei meus apps e pronto: já estou ajudando a reflorestar a Amazônia!",
+      "autor": "Camila F., São Paulo"
+    },
+    {
+      "texto": "Transformei meu impacto em pontos, ganhei desconto no cinema e ainda ajudei uma ONG local.",
+      "autor": "Rodrigo M., Recife"
+    },
+    {
+      "texto": "Adoro ver meu progresso semanal e competir com meus amigos. É tipo um jogo… só que salvando o planeta!",
+      "autor": "Lívia T., Belo Horizonte"
+    }
+  ],
+  "planos": [
+    {
+      "nome": "Plano Raiz — Gratuito",
+      "preco": "R$ 0/mês",
+      "descricao": "Ideal para iniciantes.",
+      "beneficios": [
+        "Acesso ao EcoScore básico",
+        "Sugestões sustentáveis",
+        "Relatórios mensais",
+        "Desafios e ranking"
+      ]
+    },
+    {
+      "nome": "Plano Folha — R$ 19/mês",
+      "preco": "",
+      "descricao": "Mais praticidade e impacto real.",
+      "beneficios": [
+        "Tudo do plano Raiz",
+        "Compensação automática",
+        "Plantio de 2 árvores/mês",
+        "Cupons e parcerias"
+      ]
+    },
+    {
+      "nome": "Plano Floresta — R$ 49/mês",
+      "preco": "",
+      "descricao": "Para quem quer liderar a mudança.",
+      "beneficios": [
+        "Todos os benefícios anteriores",
+        "Impacto triplo: compensação, educação e doação",
+        "Projetos com acompanhamento em tempo real",
+        "Mentoria ambiental mensal"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "pergunta": "Como o EcoPulse calcula meu impacto?",
+      "resposta": "Usamos dados dos apps conectados e modelos reconhecidos de cálculo de emissões para estimar sua pegada de carbono."
+    },
+    {
+      "pergunta": "Preciso pagar para usar?",
+      "resposta": "Temos um plano gratuito com recursos essenciais. Planos pagos oferecem mais comodidades e impacto ampliado."
+    },
+    {
+      "pergunta": "Minhas ações realmente fazem diferença?",
+      "resposta": "Sim! Todas as compensações são ligadas a projetos reais, com impacto rastreável e transparente."
+    }
+  ]
+}
