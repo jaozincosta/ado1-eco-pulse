@@ -1,0 +1,292 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f5f5f5;
+  color: #000;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.logo-text {
+  font-size: 56px;
+  font-weight: 900;
+  font-family: "Arial Black", sans-serif;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("imagens/image1.jpg") center/cover no-repeat;
+  color: #fff;
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.cta {
+  margin-top: 20px;
+  background-color: #1b5e20;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cta:hover {
+  background-color: #43a047;
+}
+
+.eco-section {
+  background-color: #f1f8e9;
+  padding: 100px 20px;
+}
+
+.eco-box {
+  background-color: #ffffff;
+  max-width: 900px;
+  margin: auto;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+  color: #000;
+}
+
+.eco-box h2,
+.eco-box h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.eco-box ul,
+.eco-box ol {
+  margin-left: 20px;
+}
+
+.eco-box li {
+  margin-bottom: 10px;
+}
+
+section {
+  padding: 80px 20px;
+  border-bottom: 2px solid #c8e6c9;
+  background-color: #fff;
+}
+
+section:nth-of-type(even) {
+  background-color: #d0f0c0;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 40px;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 2px solid #a5d6a7;
+  border-radius: 12px;
+  padding: 24px;
+  width: 280px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+  color: #000;
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  border-color: #66bb6a;
+}
+
+.card button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 2px solid #000;
+  background: none;
+  color: #000;
+  font-weight: 600;
+  border-radius: 30px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 24px;
+  background-color: #d0efc4;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.icon-grid .item {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  color: #000;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-grid .item img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.faq details {
+  background-color: #e0f2f1;
+  padding: 16px 20px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  border: 1px solid #4db6ac;
+  color: #000;
+}
+
+.faq summary {
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.faq summary::marker {
+  display: none;
+}
+
+.cta-section {
+  background-color: #d0f0c0;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.cta-section .tempo {
+  font-style: italic;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.footer {
+  background-color: #2c2c2c;
+  color: #f1f1f1;
+  padding: 40px 20px 20px;
+  font-size: 14px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer-logo img {
+  width: 180px;
+}
+
+.footer-info {
+  text-align: center;
+  flex: 1;
+}
+
+.footer-info p {
+  margin: 40px 0;
+  color: #ccc;
+}
+
+.footer-links {
+  text-align: right;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
+
+.footer hr {
+  border: none;
+  border-top: 1px solid #444;
+  margin: 30px 0 10px;
+}
+
+.footer-copy {
+  text-align: center;
+  color: #888;
+  font-size: 13px;
+}
+
+@media (max-width: 768px) {
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero {
+    padding: 60px 20px;
+  }
+
+  .logo-text {
+    font-size: 36px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .eco-box {
+    padding: 20px;
+  }
+
+  .icon-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icon-grid .item {
+    width: 100%;
+    max-width: 320px;
+  }
+}
